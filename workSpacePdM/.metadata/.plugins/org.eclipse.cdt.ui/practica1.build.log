@@ -1,0 +1,22 @@
+00:10:27 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "practica1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LD\0_cese\pdm\practica1\STM32F401VDTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="practica1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: practica1.elf
+ 
+arm-none-eabi-size   practica1.elf 
+arm-none-eabi-objdump -h -S  practica1.elf  > "practica1.list"
+arm-none-eabi-objcopy  -O binary  practica1.elf  "practica1.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5992	     20	   1604	   7616	   1dc0	practica1.elf
+Finished building: default.size.stdout
+ 
+Finished building: practica1.list
+Finished building: practica1.bin
+ 
+ 
+arm-none-eabi-objcopy -O ihex practica1.elf practica1.hex
+ 
+
+00:10:29 Build Finished. 0 errors, 0 warnings. (took 1s.875ms)
+

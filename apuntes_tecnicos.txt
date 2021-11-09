@@ -1,0 +1,16 @@
+https://www.freecodecamp.org/espanol/news/10-comandos-de-git-que-todo-desarrollador-deberia-saber/
+
+https://www.youtube.com/watch?v=PW_A-lOpVV0 (curso de Git)
+
+https://www.youtube.com/watch?v=mgDIP46LEUo (Encriptar contraseñas)
+
+Este es el orden de las instrucciones de git que debes seguir para la primera vez que se crea un repositorio: 
+
+git init
+1) git add .
+2) git commit -m "Escribe tu mensaje"
+3) git remote add origin --Pega_la_URL_del_Repo-- main
+4) git branch main
+5) git push -u origin main
+
+En el paso 5 te pide usuario y contraseña. La contraseña corresponde al Token de Desarrollador

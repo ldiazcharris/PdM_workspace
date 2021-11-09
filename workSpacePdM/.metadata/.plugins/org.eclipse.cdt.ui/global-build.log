@@ -1,0 +1,2186 @@
+22:44:09 **** Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f401vdtx.d" -MT"Core/Startup/startup_stm32f401vdtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f401vdtx.o" "../Core/Startup/startup_stm32f401vdtx.s"
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:11:32: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                                ^~~~~~
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t* delay);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Inc/API_delay.h:13:33: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Inc/API_delay.h:19:2: error: unknown type name 'tick_t'
+   19 |  tick_t startTime;
+      |  ^~~~~~
+../Core/Inc/API_delay.h:20:2: error: unknown type name 'tick_t'
+   20 |  tick_t duration;
+      |  ^~~~~~
+../Core/Src/API_delay.c:10:33: error: unknown type name 'tick_t'; did you mean 'teck_t'?
+   10 | void delayInit( delay_t* delay, tick_t duration)
+      |                                 ^~~~~~
+      |                                 teck_t
+../Core/Src/API_delay.c: In function 'delayRead':
+../Core/Src/API_delay.c:21:6: error: 'delay' undeclared (first use in this function); did you mean 'delay_t'?
+   21 |  if (delay == 0)
+      |      ^~~~~
+      |      delay_t
+../Core/Src/API_delay.c:21:6: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/API_delay.c:26:12: error: 'tick_t' undeclared (first use in this function); did you mean 'teck_t'?
+   26 |  }else if((tick_t)(HAL_GetTick() - delay->startTime) >= delay->duration){
+      |            ^~~~~~
+      |            teck_t
+../Core/Src/API_delay.c:30:9: error: 'timeArrived' undeclared (first use in this function); did you mean 'timeArrive'?
+   30 |  return timeArrived;
+      |         ^~~~~~~~~~~
+      |         timeArrive
+../Core/Src/API_delay.c:20:9: warning: variable 'timeArrive' set but not used [-Wunused-but-set-variable]
+   20 |  bool_t timeArrive = false;
+      |         ^~~~~~~~~~
+../Core/Src/API_delay.c: At top level:
+../Core/Src/API_delay.c:33:33: error: unknown type name 'tick_t'; did you mean 'teck_t'?
+   33 | void delayWrite(delay_t* delay, tick_t duration)
+      |                                 ^~~~~~
+      |                                 teck_t
+../Core/Src/API_delay.c: In function 'delayRead':
+../Core/Src/API_delay.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+   31 | }
+      | ^
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:11:32: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                                ^~~~~~
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t* delay);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Inc/API_delay.h:13:33: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Inc/API_delay.h:19:2: error: unknown type name 'tick_t'
+   19 |  tick_t startTime;
+      |  ^~~~~~
+../Core/Inc/API_delay.h:20:2: error: unknown type name 'tick_t'
+   20 |  tick_t duration;
+      |  ^~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:94:18: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   94 |   delay_t delay_1{
+      |                  ^
+../Core/Src/main.c:95:4: error: 'startTime' undeclared (first use in this function)
+   95 |    startTime = 0;
+      |    ^~~~~~~~~
+../Core/Src/main.c:95:4: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:96:4: error: 'duration' undeclared (first use in this function)
+   96 |    duration = 100;
+      |    ^~~~~~~~
+../Core/Src/main.c:97:4: error: 'running' undeclared (first use in this function)
+   97 |    running = 0;
+      |    ^~~~~~~
+../Core/Src/main.c:99:3: warning: implicit declaration of function 'delayInit' [-Wimplicit-function-declaration]
+   99 |   delayInit(delay_1, 100);
+      |   ^~~~~~~~~
+../Core/Src/main.c:99:13: error: 'delay_1' undeclared (first use in this function); did you mean 'delay_t'?
+   99 |   delayInit(delay_1, 100);
+      |             ^~~~~~~
+      |             delay_t
+../Core/Src/main.c:104:8: warning: implicit declaration of function 'delayRead' [-Wimplicit-function-declaration]
+  104 |    if (delayRead(delay_1)){
+      |        ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+22:44:32 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:11:32: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                                ^~~~~~
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t* delay);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Inc/API_delay.h:13:33: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Inc/API_delay.h:19:2: error: unknown type name 'tick_t'
+   19 |  tick_t startTime;
+      |  ^~~~~~
+../Core/Inc/API_delay.h:20:2: error: unknown type name 'tick_t'
+   20 |  tick_t duration;
+      |  ^~~~~~
+../Core/Src/API_delay.c:10:33: error: unknown type name 'tick_t'; did you mean 'teck_t'?
+   10 | void delayInit( delay_t* delay, tick_t duration)
+      |                                 ^~~~~~
+      |                                 teck_t
+../Core/Src/API_delay.c: In function 'delayRead':
+../Core/Src/API_delay.c:21:6: error: 'delay' undeclared (first use in this function); did you mean 'delay_t'?
+   21 |  if (delay == 0)
+      |      ^~~~~
+      |      delay_t
+../Core/Src/API_delay.c:21:6: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/API_delay.c:26:12: error: 'tick_t' undeclared (first use in this function); did you mean 'teck_t'?
+   26 |  }else if((tick_t)(HAL_GetTick() - delay->startTime) >= delay->duration){
+      |            ^~~~~~
+      |            teck_t
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:11:32: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                                ^~~~~~
+../Core/Src/API_delay.c:30:9: error: 'timeArrived' undeclared (first use in this function); did you mean 'timeArrive'?
+   30 |  return timeArrived;
+      |         ^~~~~~~~~~~
+      |         timeArrive
+../Core/Src/API_delay.c:20:9: warning: variable 'timeArrive' set but not used [-Wunused-but-set-variable]
+   20 |  bool_t timeArrive = false;
+      |         ^~~~~~~~~~
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t* delay);
+      |                ^~~~~~~
+../Core/Src/API_delay.c: At top level:
+../Core/Src/API_delay.c:33:33: error: unknown type name 'tick_t'; did you mean 'teck_t'?
+   33 | void delayWrite(delay_t* delay, tick_t duration)
+      |                                 ^~~~~~
+      |                                 teck_t
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Src/API_delay.c: In function 'delayRead':
+../Core/Src/API_delay.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+   31 | }
+      | ^
+../Core/Inc/API_delay.h:13:33: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Inc/API_delay.h:19:2: error: unknown type name 'tick_t'
+   19 |  tick_t startTime;
+      |  ^~~~~~
+../Core/Inc/API_delay.h:20:2: error: unknown type name 'tick_t'
+   20 |  tick_t duration;
+      |  ^~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:95:3: warning: implicit declaration of function 'delayInit' [-Wimplicit-function-declaration]
+   95 |   delayInit(delay_1, 100);
+      |   ^~~~~~~~~
+../Core/Src/main.c:95:13: error: 'delay_1' undeclared (first use in this function); did you mean 'delay_t'?
+   95 |   delayInit(delay_1, 100);
+      |             ^~~~~~~
+      |             delay_t
+../Core/Src/main.c:95:13: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:100:8: warning: implicit declaration of function 'delayRead' [-Wimplicit-function-declaration]
+  100 |    if (delayRead(delay_1)){
+      |        ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+22:45:00 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:11:32: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                                ^~~~~~
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t* delay);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Inc/API_delay.h:13:33: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Inc/API_delay.h:19:2: error: unknown type name 'tick_t'
+   19 |  tick_t startTime;
+      |  ^~~~~~
+../Core/Inc/API_delay.h:20:2: error: unknown type name 'tick_t'
+   20 |  tick_t duration;
+      |  ^~~~~~
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:11:32: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                                ^~~~~~
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t* delay);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Inc/API_delay.h:13:33: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Inc/API_delay.h:19:2: error: unknown type name 'tick_t'
+   19 |  tick_t startTime;
+      |  ^~~~~~
+../Core/Inc/API_delay.h:20:2: error: unknown type name 'tick_t'
+   20 |  tick_t duration;
+      |  ^~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:95:3: warning: implicit declaration of function 'delayInit' [-Wimplicit-function-declaration]
+   95 |   delayInit(delay_t delay_1, 100);
+      |   ^~~~~~~~~
+../Core/Src/main.c:95:13: error: expected expression before 'delay_t'
+   95 |   delayInit(delay_t delay_1, 100);
+      |             ^~~~~~~
+../Core/Src/API_delay.c:10:33: error: unknown type name 'tick_t'; did you mean 'teck_t'?
+   10 | void delayInit( delay_t* delay, tick_t duration)
+      |                                 ^~~~~~
+      |                                 teck_t
+../Core/Src/main.c:100:8: warning: implicit declaration of function 'delayRead' [-Wimplicit-function-declaration]
+  100 |    if (delayRead(delay_1)){
+      |        ^~~~~~~~~
+../Core/Src/API_delay.c: In function 'delayRead':
+../Core/Src/API_delay.c:21:6: error: 'delay' undeclared (first use in this function); did you mean 'delay_t'?
+   21 |  if (delay == 0)
+      |      ^~~~~
+      |      delay_t
+../Core/Src/API_delay.c:21:6: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:100:18: error: 'delay_1' undeclared (first use in this function); did you mean 'delay_t'?
+  100 |    if (delayRead(delay_1)){
+      |                  ^~~~~~~
+      |                  delay_t
+../Core/Src/main.c:100:18: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/API_delay.c:26:12: error: 'tick_t' undeclared (first use in this function); did you mean 'teck_t'?
+   26 |  }else if((tick_t)(HAL_GetTick() - delay->startTime) >= delay->duration){
+      |            ^~~~~~
+      |            teck_t
+../Core/Src/API_delay.c:30:9: error: 'timeArrived' undeclared (first use in this function); did you mean 'timeArrive'?
+   30 |  return timeArrived;
+      |         ^~~~~~~~~~~
+      |         timeArrive
+../Core/Src/API_delay.c:20:9: warning: variable 'timeArrive' set but not used [-Wunused-but-set-variable]
+   20 |  bool_t timeArrive = false;
+      |         ^~~~~~~~~~
+../Core/Src/API_delay.c: At top level:
+../Core/Src/API_delay.c:33:33: error: unknown type name 'tick_t'; did you mean 'teck_t'?
+   33 | void delayWrite(delay_t* delay, tick_t duration)
+      |                                 ^~~~~~
+      |                                 teck_t
+../Core/Src/API_delay.c: In function 'delayRead':
+../Core/Src/API_delay.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+   31 | }
+      | ^
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+22:45:24 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:11:32: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                                ^~~~~~
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t* delay);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Inc/API_delay.h:13:33: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Inc/API_delay.h:19:2: error: unknown type name 'tick_t'
+   19 |  tick_t startTime;
+      |  ^~~~~~
+../Core/Inc/API_delay.h:20:2: error: unknown type name 'tick_t'
+   20 |  tick_t duration;
+      |  ^~~~~~
+../Core/Src/API_delay.c:10:33: error: unknown type name 'tick_t'; did you mean 'teck_t'?
+   10 | void delayInit( delay_t* delay, tick_t duration)
+      |                                 ^~~~~~
+      |                                 teck_t
+../Core/Src/API_delay.c: In function 'delayRead':
+../Core/Src/API_delay.c:21:6: error: 'delay' undeclared (first use in this function); did you mean 'delay_t'?
+   21 |  if (delay == 0)
+      |      ^~~~~
+      |      delay_t
+../Core/Src/API_delay.c:21:6: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/API_delay.c:26:12: error: 'tick_t' undeclared (first use in this function); did you mean 'teck_t'?
+   26 |  }else if((tick_t)(HAL_GetTick() - delay->startTime) >= delay->duration){
+      |            ^~~~~~
+      |            teck_t
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:11:32: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                                ^~~~~~
+../Core/Src/API_delay.c:30:9: error: 'timeArrived' undeclared (first use in this function); did you mean 'timeArrive'?
+   30 |  return timeArrived;
+      |         ^~~~~~~~~~~
+      |         timeArrive
+../Core/Src/API_delay.c:20:9: warning: variable 'timeArrive' set but not used [-Wunused-but-set-variable]
+   20 |  bool_t timeArrive = false;
+      |         ^~~~~~~~~~
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t* delay);
+      |                ^~~~~~~
+../Core/Src/API_delay.c: At top level:
+../Core/Src/API_delay.c:33:33: error: unknown type name 'tick_t'; did you mean 'teck_t'?
+   33 | void delayWrite(delay_t* delay, tick_t duration)
+      |                                 ^~~~~~
+      |                                 teck_t
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Src/API_delay.c: In function 'delayRead':
+../Core/Src/API_delay.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+   31 | }
+      | ^
+../Core/Inc/API_delay.h:13:33: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Inc/API_delay.h:19:2: error: unknown type name 'tick_t'
+   19 |  tick_t startTime;
+      |  ^~~~~~
+../Core/Inc/API_delay.h:20:2: error: unknown type name 'tick_t'
+   20 |  tick_t duration;
+      |  ^~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:94:3: error: unknown type name 'elay_t'; did you mean 'delay_t'?
+   94 |   elay_t delay_1 = 0;
+      |   ^~~~~~
+      |   delay_t
+../Core/Src/main.c:96:3: warning: implicit declaration of function 'delayInit' [-Wimplicit-function-declaration]
+   96 |   delayInit(delay_1, 100);
+      |   ^~~~~~~~~
+../Core/Src/main.c:101:8: warning: implicit declaration of function 'delayRead' [-Wimplicit-function-declaration]
+  101 |    if (delayRead(delay_1)){
+      |        ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+22:47:37 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:11:32: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                                ^~~~~~
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t* delay);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Inc/API_delay.h:13:33: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Inc/API_delay.h:19:2: error: unknown type name 'tick_t'
+   19 |  tick_t startTime;
+      |  ^~~~~~
+../Core/Inc/API_delay.h:20:2: error: unknown type name 'tick_t'
+   20 |  tick_t duration;
+      |  ^~~~~~
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:11:32: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                                ^~~~~~
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t* delay);
+      |                ^~~~~~~
+../Core/Src/API_delay.c:10:33: error: unknown type name 'tick_t'; did you mean 'teck_t'?
+   10 | void delayInit( delay_t* delay, tick_t duration)
+      |                                 ^~~~~~
+      |                                 teck_t
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Src/API_delay.c: In function 'delayRead':
+../Core/Src/API_delay.c:21:6: error: 'delay' undeclared (first use in this function); did you mean 'delay_t'?
+   21 |  if (delay == 0)
+      |      ^~~~~
+      |      delay_t
+../Core/Src/API_delay.c:21:6: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Inc/API_delay.h:13:33: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Inc/API_delay.h:19:2: error: unknown type name 'tick_t'
+   19 |  tick_t startTime;
+      |  ^~~~~~
+../Core/Inc/API_delay.h:20:2: error: unknown type name 'tick_t'
+   20 |  tick_t duration;
+      |  ^~~~~~
+../Core/Src/API_delay.c:26:12: error: 'tick_t' undeclared (first use in this function); did you mean 'teck_t'?
+   26 |  }else if((tick_t)(HAL_GetTick() - delay->startTime) >= delay->duration){
+      |            ^~~~~~
+      |            teck_t
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:94:18: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   94 |   delay_t delay_1{
+      |                  ^
+../Core/Src/API_delay.c:30:9: error: 'timeArrived' undeclared (first use in this function); did you mean 'timeArrive'?
+   30 |  return timeArrived;
+      |         ^~~~~~~~~~~
+      |         timeArrive
+../Core/Src/main.c:95:4: error: expected expression before '.' token
+   95 |    .startTime = 0,
+      |    ^
+../Core/Src/API_delay.c:20:9: warning: variable 'timeArrive' set but not used [-Wunused-but-set-variable]
+   20 |  bool_t timeArrive = false;
+      |         ^~~~~~~~~~
+../Core/Src/main.c:95:18: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   95 |    .startTime = 0,
+      |                  ^
+../Core/Src/main.c:96:19: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   96 |    .duration = 100,
+      |                   ^
+../Core/Src/API_delay.c: At top level:
+../Core/Src/API_delay.c:33:33: error: unknown type name 'tick_t'; did you mean 'teck_t'?
+   33 | void delayWrite(delay_t* delay, tick_t duration)
+      |                                 ^~~~~~
+      |                                 teck_t
+../Core/Src/API_delay.c: In function 'delayRead':
+../Core/Src/API_delay.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+   31 | }
+      | ^
+../Core/Src/main.c:100:3: warning: implicit declaration of function 'delayInit' [-Wimplicit-function-declaration]
+  100 |   delayInit(delay_1, 100);
+      |   ^~~~~~~~~
+../Core/Src/main.c:100:13: error: 'delay_1' undeclared (first use in this function); did you mean 'delay_t'?
+  100 |   delayInit(delay_1, 100);
+      |             ^~~~~~~
+      |             delay_t
+../Core/Src/main.c:100:13: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:105:8: warning: implicit declaration of function 'delayRead' [-Wimplicit-function-declaration]
+  105 |    if (delayRead(delay_1)){
+      |        ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+22:48:05 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:11:32: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                                ^~~~~~
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t* delay);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Inc/API_delay.h:13:33: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Inc/API_delay.h:19:2: error: unknown type name 'tick_t'
+   19 |  tick_t startTime;
+      |  ^~~~~~
+../Core/Inc/API_delay.h:20:2: error: unknown type name 'tick_t'
+   20 |  tick_t duration;
+      |  ^~~~~~
+../Core/Src/API_delay.c:10:33: error: unknown type name 'tick_t'; did you mean 'teck_t'?
+   10 | void delayInit( delay_t* delay, tick_t duration)
+      |                                 ^~~~~~
+      |                                 teck_t
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Src/API_delay.c: In function 'delayRead':
+../Core/Src/API_delay.c:21:6: error: 'delay' undeclared (first use in this function); did you mean 'delay_t'?
+   21 |  if (delay == 0)
+      |      ^~~~~
+      |      delay_t
+../Core/Src/API_delay.c:21:6: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Inc/API_delay.h:11:32: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                                ^~~~~~
+../Core/Src/API_delay.c:26:12: error: 'tick_t' undeclared (first use in this function); did you mean 'teck_t'?
+   26 |  }else if((tick_t)(HAL_GetTick() - delay->startTime) >= delay->duration){
+      |            ^~~~~~
+      |            teck_t
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t* delay);
+      |                ^~~~~~~
+../Core/Src/API_delay.c:30:9: error: 'timeArrived' undeclared (first use in this function); did you mean 'timeArrive'?
+   30 |  return timeArrived;
+      |         ^~~~~~~~~~~
+      |         timeArrive
+../Core/Src/API_delay.c:20:9: warning: variable 'timeArrive' set but not used [-Wunused-but-set-variable]
+   20 |  bool_t timeArrive = false;
+      |         ^~~~~~~~~~
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Src/API_delay.c: At top level:
+../Core/Src/API_delay.c:33:33: error: unknown type name 'tick_t'; did you mean 'teck_t'?
+   33 | void delayWrite(delay_t* delay, tick_t duration)
+      |                                 ^~~~~~
+      |                                 teck_t
+../Core/Inc/API_delay.h:13:33: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Inc/API_delay.h:19:2: error: unknown type name 'tick_t'
+   19 |  tick_t startTime;
+      |  ^~~~~~
+../Core/Inc/API_delay.h:20:2: error: unknown type name 'tick_t'
+   20 |  tick_t duration;
+      |  ^~~~~~
+../Core/Src/API_delay.c: In function 'delayRead':
+../Core/Src/API_delay.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+   31 | }
+      | ^
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:101:3: warning: implicit declaration of function 'delayInit' [-Wimplicit-function-declaration]
+  101 |   delayInit(delay_1, 100);
+      |   ^~~~~~~~~
+../Core/Src/main.c:106:8: warning: implicit declaration of function 'delayRead' [-Wimplicit-function-declaration]
+  106 |    if (delayRead(delay_1)){
+      |        ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+22:49:05 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:11:32: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                                ^~~~~~
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t* delay);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Inc/API_delay.h:13:33: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Src/API_delay.c: In function 'delayInit':
+../Core/Src/API_delay.c:12:46: error: 'MAX_DELAY' undeclared (first use in this function); did you mean 'HAL_MAX_DELAY'?
+   12 |  if(delay == 0 || duration < 0 || duration > MAX_DELAY)
+      |                                              ^~~~~~~~~
+      |                                              HAL_MAX_DELAY
+../Core/Src/API_delay.c:12:46: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/API_delay.c: In function 'delayRead':
+../Core/Src/API_delay.c:21:6: error: 'delay' undeclared (first use in this function); did you mean 'delay_t'?
+   21 |  if (delay == 0)
+      |      ^~~~~
+      |      delay_t
+../Core/Src/API_delay.c:30:9: error: 'timeArrived' undeclared (first use in this function); did you mean 'timeArrive'?
+   30 |  return timeArrived;
+      |         ^~~~~~~~~~~
+      |         timeArrive
+../Core/Src/API_delay.c:20:9: warning: variable 'timeArrive' set but not used [-Wunused-but-set-variable]
+   20 |  bool_t timeArrive = false;
+      |         ^~~~~~~~~~
+../Core/Src/API_delay.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+   31 | }
+      | ^
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:11:32: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                                ^~~~~~
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t* delay);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Inc/API_delay.h:13:33: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                                 ^~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+../Core/Src/main.c: In function 'main':
+make: *** Waiting for unfinished jobs....
+../Core/Src/main.c:101:3: warning: implicit declaration of function 'delayInit' [-Wimplicit-function-declaration]
+  101 |   delayInit(delay_1, 100);
+      |   ^~~~~~~~~
+../Core/Src/main.c:106:8: warning: implicit declaration of function 'delayRead' [-Wimplicit-function-declaration]
+  106 |    if (delayRead(delay_1)){
+      |        ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+22:49:37 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:11:32: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                                ^~~~~~
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t* delay);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Inc/API_delay.h:13:33: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                                 ^~~~~~
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:11:32: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t* delay, tick_t duration);
+      |                                ^~~~~~
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t* delay);
+      |                ^~~~~~~
+../Core/Src/API_delay.c: In function 'delayRead':
+../Core/Src/API_delay.c:21:6: error: 'delay' undeclared (first use in this function); did you mean 'delay_t'?
+   21 |  if (delay == 0)
+      |      ^~~~~
+      |      delay_t
+../Core/Src/API_delay.c:21:6: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Src/API_delay.c:30:9: error: 'timeArrived' undeclared (first use in this function); did you mean 'timeArrive'?
+   30 |  return timeArrived;
+      |         ^~~~~~~~~~~
+      |         timeArrive
+../Core/Src/API_delay.c:20:9: warning: variable 'timeArrive' set but not used [-Wunused-but-set-variable]
+   20 |  bool_t timeArrive = false;
+      |         ^~~~~~~~~~
+../Core/Inc/API_delay.h:13:33: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t* delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Src/API_delay.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+   31 | }
+      | ^
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:101:3: warning: implicit declaration of function 'delayInit' [-Wimplicit-function-declaration]
+  101 |   delayInit(delay_1, 100);
+      |   ^~~~~~~~~
+../Core/Src/main.c:106:8: warning: implicit declaration of function 'delayRead' [-Wimplicit-function-declaration]
+  106 |    if (delayRead(delay_1)){
+      |        ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+22:50:13 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t * delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:11:33: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t * delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t * delay);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t * delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Inc/API_delay.h:13:34: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t * delay, tick_t duration);
+      |                                  ^~~~~~
+../Core/Src/API_delay.c: In function 'delayRead':
+../Core/Src/API_delay.c:21:6: error: 'delay' undeclared (first use in this function); did you mean 'delay_t'?
+   21 |  if (delay == 0)
+      |      ^~~~~
+      |      delay_t
+../Core/Src/API_delay.c:21:6: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t * delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Src/API_delay.c:30:9: error: 'timeArrived' undeclared (first use in this function); did you mean 'timeArrive'?
+   30 |  return timeArrived;
+      |         ^~~~~~~~~~~
+      |         timeArrive
+../Core/Src/API_delay.c:20:9: warning: variable 'timeArrive' set but not used [-Wunused-but-set-variable]
+   20 |  bool_t timeArrive = false;
+      |         ^~~~~~~~~~
+../Core/Inc/API_delay.h:11:33: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t * delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Src/API_delay.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+   31 | }
+      | ^
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t * delay);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t * delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Inc/API_delay.h:13:34: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t * delay, tick_t duration);
+      |                                  ^~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:101:3: warning: implicit declaration of function 'delayInit' [-Wimplicit-function-declaration]
+  101 |   delayInit(delay_1, 100);
+      |   ^~~~~~~~~
+../Core/Src/main.c:106:8: warning: implicit declaration of function 'delayRead' [-Wimplicit-function-declaration]
+  106 |    if (delayRead(delay_1)){
+      |        ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+22:51:23 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t * delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:11:33: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t * delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t * delay);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t * delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Inc/API_delay.h:13:34: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t * delay, tick_t duration);
+      |                                  ^~~~~~
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t * delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:11:33: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t * delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Src/API_delay.c: In function 'delayRead':
+../Core/Src/API_delay.c:21:6: error: 'delay' undeclared (first use in this function); did you mean 'delay_t'?
+   21 |  if (delay == 0)
+      |      ^~~~~
+      |      delay_t
+../Core/Src/API_delay.c:21:6: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t * delay);
+      |                ^~~~~~~
+../Core/Src/API_delay.c:30:9: error: 'timeArrived' undeclared (first use in this function); did you mean 'timeArrive'?
+   30 |  return timeArrived;
+      |         ^~~~~~~~~~~
+      |         timeArrive
+../Core/Src/API_delay.c:20:9: warning: variable 'timeArrive' set but not used [-Wunused-but-set-variable]
+   20 |  bool_t timeArrive = false;
+      |         ^~~~~~~~~~
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t * delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Src/API_delay.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+   31 | }
+      | ^
+../Core/Inc/API_delay.h:13:34: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t * delay, tick_t duration);
+      |                                  ^~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:101:3: warning: implicit declaration of function 'delayInit' [-Wimplicit-function-declaration]
+  101 |   delayInit(delay_1, 100);
+      |   ^~~~~~~~~
+../Core/Src/main.c:106:8: warning: implicit declaration of function 'delayRead' [-Wimplicit-function-declaration]
+  106 |    if (delayRead(delay_1)){
+      |        ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+22:59:57 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t * delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:11:33: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t * delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t * delay);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t * delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Inc/API_delay.h:13:34: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t * delay, tick_t duration);
+      |                                  ^~~~~~
+../Core/Src/API_delay.c: In function 'delayRead':
+../Core/Src/API_delay.c:30:9: error: 'timeArrived' undeclared (first use in this function); did you mean 'timeArrive'?
+   30 |  return timeArrived;
+      |         ^~~~~~~~~~~
+      |         timeArrive
+../Core/Src/API_delay.c:30:9: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/API_delay.c:20:9: warning: variable 'timeArrive' set but not used [-Wunused-but-set-variable]
+   20 |  bool_t timeArrive = false;
+      |         ^~~~~~~~~~
+../Core/Src/API_delay.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+   31 | }
+      | ^
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t * delay, tick_t duration);
+      |                ^~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Inc/API_delay.h:11:33: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t * delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t * delay);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t * delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Inc/API_delay.h:13:34: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t * delay, tick_t duration);
+      |                                  ^~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:101:3: warning: implicit declaration of function 'delayInit' [-Wimplicit-function-declaration]
+  101 |   delayInit(delay_1, 100);
+      |   ^~~~~~~~~
+../Core/Src/main.c:106:8: warning: implicit declaration of function 'delayRead' [-Wimplicit-function-declaration]
+  106 |    if (delayRead(delay_1)){
+      |        ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:00:35 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t * delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:11:33: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t * delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t * delay);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t * delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Inc/API_delay.h:13:34: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t * delay, tick_t duration);
+      |                                  ^~~~~~
+../Core/Src/API_delay.c: In function 'delayRead':
+../Core/Src/API_delay.c:27:3: error: 'timeArrive' undeclared (first use in this function); did you mean 'timeArrived'?
+   27 |   timeArrive = true;
+      |   ^~~~~~~~~~
+      |   timeArrived
+../Core/Src/API_delay.c:27:3: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t * delay, tick_t duration);
+      |                ^~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Inc/API_delay.h:11:33: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t * delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t * delay);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t * delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Inc/API_delay.h:13:34: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t * delay, tick_t duration);
+      |                                  ^~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:101:3: warning: implicit declaration of function 'delayInit' [-Wimplicit-function-declaration]
+  101 |   delayInit(delay_1, 100);
+      |   ^~~~~~~~~
+../Core/Src/main.c:106:8: warning: implicit declaration of function 'delayRead' [-Wimplicit-function-declaration]
+  106 |    if (delayRead(delay_1)){
+      |        ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:00:49 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t * delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:11:33: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t * delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t * delay);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t * delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Inc/API_delay.h:13:34: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t * delay, tick_t duration);
+      |                                  ^~~~~~
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:11:16: error: unknown type name 'delay_t'
+   11 | void delayInit(delay_t * delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:11:33: error: unknown type name 'tick_t'
+   11 | void delayInit(delay_t * delay, tick_t duration);
+      |                                 ^~~~~~
+../Core/Inc/API_delay.h:12:16: error: unknown type name 'delay_t'
+   12 | void delayRead(delay_t * delay);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:13:17: error: unknown type name 'delay_t'
+   13 | void delayWrite(delay_t * delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Inc/API_delay.h:13:34: error: unknown type name 'tick_t'
+   13 | void delayWrite(delay_t * delay, tick_t duration);
+      |                                  ^~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:101:3: warning: implicit declaration of function 'delayInit' [-Wimplicit-function-declaration]
+  101 |   delayInit(delay_1, 100);
+      |   ^~~~~~~~~
+../Core/Src/main.c:106:8: warning: implicit declaration of function 'delayRead' [-Wimplicit-function-declaration]
+  106 |    if (delayRead(delay_1)){
+      |        ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:01:28 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:14:16: error: unknown type name 'delay_t'
+   14 | void delayInit(delay_t * delay, tick_t duration);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:15:16: error: unknown type name 'delay_t'
+   15 | void delayRead(delay_t * delay);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:16:17: error: unknown type name 'delay_t'
+   16 | void delayWrite(delay_t * delay, tick_t duration);
+      |                 ^~~~~~~
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:14:16: error: unknown type name 'delay_t'
+   14 | void delayInit(delay_t * delay, tick_t duration);
+      |                ^~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Inc/API_delay.h:15:16: error: unknown type name 'delay_t'
+   15 | void delayRead(delay_t * delay);
+      |                ^~~~~~~
+../Core/Inc/API_delay.h:16:17: error: unknown type name 'delay_t'
+   16 | void delayWrite(delay_t * delay, tick_t duration);
+      |                 ^~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:101:3: warning: implicit declaration of function 'delayInit' [-Wimplicit-function-declaration]
+  101 |   delayInit(delay_1, 100);
+      |   ^~~~~~~~~
+../Core/Src/main.c:106:8: warning: implicit declaration of function 'delayRead' [-Wimplicit-function-declaration]
+  106 |    if (delayRead(delay_1)){
+      |        ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:01:50 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:13:2: error: unknown type name 'tick_t'
+   13 |  tick_t startTime;
+      |  ^~~~~~
+../Core/Inc/API_delay.h:14:2: error: unknown type name 'tick_t'
+   14 |  tick_t duration;
+      |  ^~~~~~
+../Core/Inc/API_delay.h:15:2: error: unknown type name 'bool_t'
+   15 |  bool_t running;
+      |  ^~~~~~
+../Core/Src/API_delay.c:18:8: error: conflicting types for 'delayRead'
+   18 | bool_t delayRead(delay_t * delay)
+      |        ^~~~~~~~~
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:22:6: note: previous declaration of 'delayRead' was here
+   22 | void delayRead(delay_t * delay);
+      |      ^~~~~~~~~
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:13:2: error: unknown type name 'tick_t'
+   13 |  tick_t startTime;
+      |  ^~~~~~
+../Core/Inc/API_delay.h:14:2: error: unknown type name 'tick_t'
+   14 |  tick_t duration;
+      |  ^~~~~~
+../Core/Inc/API_delay.h:15:2: error: unknown type name 'bool_t'
+   15 |  bool_t running;
+      |  ^~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:101:13: error: incompatible type for argument 1 of 'delayInit'
+  101 |   delayInit(delay_1, 100);
+      |             ^~~~~~~
+      |             |
+      |             delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:21:26: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   21 | void delayInit(delay_t * delay, tick_t duration);
+      |                ~~~~~~~~~~^~~~~
+../Core/Src/main.c:106:18: error: incompatible type for argument 1 of 'delayRead'
+  106 |    if (delayRead(delay_1)){
+      |                  ^~~~~~~
+      |                  |
+      |                  delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:22:26: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   22 | void delayRead(delay_t * delay);
+      |                ~~~~~~~~~~^~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:02:30 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:13:2: error: unknown type name 'tick_t'
+   13 |  tick_t startTime;
+      |  ^~~~~~
+../Core/Inc/API_delay.h:14:2: error: unknown type name 'tick_t'
+   14 |  tick_t duration;
+      |  ^~~~~~
+../Core/Inc/API_delay.h:15:2: error: unknown type name 'bool_t'
+   15 |  bool_t running;
+      |  ^~~~~~
+../Core/Src/API_delay.c:18:8: error: conflicting types for 'delayRead'
+   18 | bool_t delayRead(delay_t * delay)
+      |        ^~~~~~~~~
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:22:6: note: previous declaration of 'delayRead' was here
+   22 | void delayRead(delay_t *delay);
+      |      ^~~~~~~~~
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:13:2: error: unknown type name 'tick_t'
+   13 |  tick_t startTime;
+      |  ^~~~~~
+../Core/Inc/API_delay.h:14:2: error: unknown type name 'tick_t'
+   14 |  tick_t duration;
+      |  ^~~~~~
+../Core/Inc/API_delay.h:15:2: error: unknown type name 'bool_t'
+   15 |  bool_t running;
+      |  ^~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:101:13: error: incompatible type for argument 1 of 'delayInit'
+  101 |   delayInit(delay_1, 100);
+      |             ^~~~~~~
+      |             |
+      |             delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:21:25: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   21 | void delayInit(delay_t *delay, tick_t duration);
+      |                ~~~~~~~~~^~~~~
+../Core/Src/main.c:106:18: error: incompatible type for argument 1 of 'delayRead'
+  106 |    if (delayRead(delay_1)){
+      |                  ^~~~~~~
+      |                  |
+      |                  delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:22:25: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   22 | void delayRead(delay_t *delay);
+      |                ~~~~~~~~~^~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:03:44 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/API_delay.c:18:8: error: conflicting types for 'delayRead'
+   18 | bool_t delayRead(delay_t * delay)
+      |        ^~~~~~~~~
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:23:6: note: previous declaration of 'delayRead' was here
+   23 | void delayRead(delay_t *delay);
+      |      ^~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:101:13: error: incompatible type for argument 1 of 'delayInit'
+  101 |   delayInit(delay_1, 100);
+      |             ^~~~~~~
+      |             |
+      |             delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:22:25: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   22 | void delayInit(delay_t *delay, tick_t duration);
+      |                ~~~~~~~~~^~~~~
+../Core/Src/main.c:106:18: error: incompatible type for argument 1 of 'delayRead'
+  106 |    if (delayRead(delay_1)){
+      |                  ^~~~~~~
+      |                  |
+      |                  delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:23:25: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   23 | void delayRead(delay_t *delay);
+      |                ~~~~~~~~~^~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:05:27 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/API_delay.c:18:8: error: conflicting types for 'delayRead'
+   18 | bool_t delayRead(delay_t * delay)
+      |        ^~~~~~~~~
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:23:6: note: previous declaration of 'delayRead' was here
+   23 | void delayRead(delay_t *delay);
+      |      ^~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:97:13: error: incompatible type for argument 1 of 'delayInit'
+   97 |   delayInit(delay_1, 100);
+      |             ^~~~~~~
+      |             |
+      |             delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:22:25: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   22 | void delayInit(delay_t *delay, tick_t duration);
+      |                ~~~~~~~~~^~~~~
+../Core/Src/main.c:102:18: error: incompatible type for argument 1 of 'delayRead'
+  102 |    if (delayRead(delay_1)){
+      |                  ^~~~~~~
+      |                  |
+      |                  delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:23:25: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   23 | void delayRead(delay_t *delay);
+      |                ~~~~~~~~~^~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:09:45 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/API_delay.c:18:8: error: conflicting types for 'delayRead'
+   18 | bool_t delayRead(delay_t* delay)
+      |        ^~~~~~~~~
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:23:6: note: previous declaration of 'delayRead' was here
+   23 | void delayRead(delay_t *delay);
+      |      ^~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:97:13: error: incompatible type for argument 1 of 'delayInit'
+   97 |   delayInit(delay_1, 100);
+      |             ^~~~~~~
+      |             |
+      |             delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:22:25: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   22 | void delayInit(delay_t *delay, tick_t duration);
+      |                ~~~~~~~~~^~~~~
+../Core/Src/main.c:102:18: error: incompatible type for argument 1 of 'delayRead'
+  102 |    if (delayRead(delay_1)){
+      |                  ^~~~~~~
+      |                  |
+      |                  delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:23:25: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   23 | void delayRead(delay_t *delay);
+      |                ~~~~~~~~~^~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:11:05 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/API_delay.c:18:8: error: conflicting types for 'delayRead'
+   18 | bool_t delayRead(delay_t* delay)
+      |        ^~~~~~~~~
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:23:6: note: previous declaration of 'delayRead' was here
+   23 | void delayRead(delay_t* delay);
+      |      ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:97:13: error: incompatible type for argument 1 of 'delayInit'
+   97 |   delayInit(delay_1, 100);
+      |             ^~~~~~~
+      |             |
+      |             delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:22:25: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   22 | void delayInit(delay_t* delay, tick_t duration);
+      |                ~~~~~~~~~^~~~~
+../Core/Src/main.c:102:18: error: incompatible type for argument 1 of 'delayRead'
+  102 |    if (delayRead(delay_1)){
+      |                  ^~~~~~~
+      |                  |
+      |                  delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:23:25: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   23 | void delayRead(delay_t* delay);
+      |                ~~~~~~~~~^~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:11:42 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/API_delay.c:18:8: error: conflicting types for 'delayRead'
+   18 | bool_t delayRead(delay_t* delay)
+      |        ^~~~~~~~~
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:23:6: note: previous declaration of 'delayRead' was here
+   23 | void delayRead(delay_t * delay);
+      |      ^~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:97:13: error: incompatible type for argument 1 of 'delayInit'
+   97 |   delayInit(delay_1, 100);
+      |             ^~~~~~~
+      |             |
+      |             delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:22:26: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   22 | void delayInit(delay_t * delay, tick_t duration);
+      |                ~~~~~~~~~~^~~~~
+../Core/Src/main.c:102:18: error: incompatible type for argument 1 of 'delayRead'
+  102 |    if (delayRead(delay_1)){
+      |                  ^~~~~~~
+      |                  |
+      |                  delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:23:26: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   23 | void delayRead(delay_t * delay);
+      |                ~~~~~~~~~~^~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:13:32 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/API_delay.c:18:8: error: conflicting types for 'delayRead'
+   18 | bool_t delayRead(delay_t * delay)
+      |        ^~~~~~~~~
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:23:6: note: previous declaration of 'delayRead' was here
+   23 | void delayRead(delay_t * delay);
+      |      ^~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:97:13: error: incompatible type for argument 1 of 'delayInit'
+   97 |   delayInit(delay_1, 100);
+      |             ^~~~~~~
+      |             |
+      |             delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:22:26: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   22 | void delayInit(delay_t * delay, tick_t duration);
+      |                ~~~~~~~~~~^~~~~
+../Core/Src/main.c:102:18: error: incompatible type for argument 1 of 'delayRead'
+  102 |    if (delayRead(delay_1)){
+      |                  ^~~~~~~
+      |                  |
+      |                  delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:23:26: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   23 | void delayRead(delay_t * delay);
+      |                ~~~~~~~~~~^~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:14:29 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:8:12: warning: extra tokens at end of #include directive
+    8 | #include <>stdint.h>
+      |            ^~~~~~
+../Core/Inc/API_delay.h:8:10: error: empty filename in #include
+    8 | #include <>stdint.h>
+      |          ^~
+../Core/Inc/API_delay.h:9:12: warning: extra tokens at end of #include directive
+    9 | #include <>stdiool.h>
+      |            ^~~~~~~
+../Core/Inc/API_delay.h:9:10: error: empty filename in #include
+    9 | #include <>stdiool.h>
+      |          ^~
+../Core/Inc/API_delay.h:11:9: error: unknown type name 'uint32_t'
+   11 | typedef uint32_t tick_t;
+      |         ^~~~~~~~
+../Core/Inc/API_delay.h:12:9: error: unknown type name 'bool'
+   12 | typedef bool bool_t;
+      |         ^~~~
+../Core/Src/API_delay.c:18:8: error: conflicting types for 'delayRead'
+   18 | bool_t delayRead(delay_t * delay)
+      |        ^~~~~~~~~
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:23:6: note: previous declaration of 'delayRead' was here
+   23 | void delayRead(delay_t * delay);
+      |      ^~~~~~~~~
+../Core/Src/API_delay.c: In function 'delayRead':
+../Core/Src/API_delay.c:20:23: error: 'false' undeclared (first use in this function)
+   20 |  bool_t timeArrived = false;
+      |                       ^~~~~
+../Core/Src/API_delay.c:20:23: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/API_delay.c:28:17: error: 'true' undeclared (first use in this function)
+   28 |   timeArrived = true;
+      |                 ^~~~
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:8:12: warning: extra tokens at end of #include directive
+    8 | #include <>stdint.h>
+      |            ^~~~~~
+../Core/Inc/API_delay.h:8:10: error: empty filename in #include
+    8 | #include <>stdint.h>
+      |          ^~
+../Core/Inc/API_delay.h:9:12: warning: extra tokens at end of #include directive
+    9 | #include <>stdiool.h>
+      |            ^~~~~~~
+../Core/Inc/API_delay.h:9:10: error: empty filename in #include
+    9 | #include <>stdiool.h>
+      |          ^~
+../Core/Inc/API_delay.h:12:9: error: unknown type name 'bool'
+   12 | typedef bool bool_t;
+      |         ^~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:97:13: error: incompatible type for argument 1 of 'delayInit'
+   97 |   delayInit(delay_1, 100);
+      |             ^~~~~~~
+      |             |
+      |             delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:22:26: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   22 | void delayInit(delay_t * delay, tick_t duration);
+      |                ~~~~~~~~~~^~~~~
+../Core/Src/main.c:102:18: error: incompatible type for argument 1 of 'delayRead'
+  102 |    if (delayRead(delay_1)){
+      |                  ^~~~~~~
+      |                  |
+      |                  delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:23:26: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   23 | void delayRead(delay_t * delay);
+      |                ~~~~~~~~~~^~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:14:53 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:8:12: warning: extra tokens at end of #include directive
+    8 | #include <>stdInt.h>
+      |            ^~~~~~
+../Core/Inc/API_delay.h:8:10: error: empty filename in #include
+    8 | #include <>stdInt.h>
+      |          ^~
+../Core/Inc/API_delay.h:9:12: warning: extra tokens at end of #include directive
+    9 | #include <>stdBool.h>
+      |            ^~~~~~~
+../Core/Inc/API_delay.h:9:10: error: empty filename in #include
+    9 | #include <>stdBool.h>
+      |          ^~
+../Core/Inc/API_delay.h:11:9: error: unknown type name 'uint32_t'
+   11 | typedef uint32_t tick_t;
+      |         ^~~~~~~~
+../Core/Inc/API_delay.h:12:9: error: unknown type name 'bool'
+   12 | typedef bool bool_t;
+      |         ^~~~
+../Core/Src/API_delay.c:18:8: error: conflicting types for 'delayRead'
+   18 | bool_t delayRead(delay_t * delay)
+      |        ^~~~~~~~~
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:23:6: note: previous declaration of 'delayRead' was here
+   23 | void delayRead(delay_t * delay);
+      |      ^~~~~~~~~
+../Core/Src/API_delay.c: In function 'delayRead':
+../Core/Src/API_delay.c:20:23: error: 'false' undeclared (first use in this function)
+   20 |  bool_t timeArrived = false;
+      |                       ^~~~~
+../Core/Src/API_delay.c:20:23: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/API_delay.c:28:17: error: 'true' undeclared (first use in this function)
+   28 |   timeArrived = true;
+      |                 ^~~~
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:8:12: warning: extra tokens at end of #include directive
+    8 | #include <>stdInt.h>
+      |            ^~~~~~
+../Core/Inc/API_delay.h:8:10: error: empty filename in #include
+    8 | #include <>stdInt.h>
+      |          ^~
+../Core/Inc/API_delay.h:9:12: warning: extra tokens at end of #include directive
+    9 | #include <>stdBool.h>
+      |            ^~~~~~~
+../Core/Inc/API_delay.h:9:10: error: empty filename in #include
+    9 | #include <>stdBool.h>
+      |          ^~
+../Core/Inc/API_delay.h:12:9: error: unknown type name 'bool'
+   12 | typedef bool bool_t;
+      |         ^~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:97:13: error: incompatible type for argument 1 of 'delayInit'
+   97 |   delayInit(delay_1, 100);
+      |             ^~~~~~~
+      |             |
+      |             delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:22:26: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   22 | void delayInit(delay_t * delay, tick_t duration);
+      |                ~~~~~~~~~~^~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/main.c:102:18: error: incompatible type for argument 1 of 'delayRead'
+  102 |    if (delayRead(delay_1)){
+      |                  ^~~~~~~
+      |                  |
+      |                  delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:23:26: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   23 | void delayRead(delay_t * delay);
+      |                ~~~~~~~~~~^~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:15:06 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/API_delay.c:18:8: error: conflicting types for 'delayRead'
+   18 | bool_t delayRead(delay_t * delay)
+      |        ^~~~~~~~~
+In file included from ../Core/Src/API_delay.c:7:
+../Core/Inc/API_delay.h:23:6: note: previous declaration of 'delayRead' was here
+   23 | void delayRead(delay_t * delay);
+      |      ^~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:97:13: error: incompatible type for argument 1 of 'delayInit'
+   97 |   delayInit(delay_1, 100);
+      |             ^~~~~~~
+      |             |
+      |             delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:22:26: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   22 | void delayInit(delay_t * delay, tick_t duration);
+      |                ~~~~~~~~~~^~~~~
+../Core/Src/main.c:102:18: error: incompatible type for argument 1 of 'delayRead'
+  102 |    if (delayRead(delay_1)){
+      |                  ^~~~~~~
+      |                  |
+      |                  delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:23:26: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   23 | void delayRead(delay_t * delay);
+      |                ~~~~~~~~~~^~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/API_delay.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:21:08 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:97:13: error: incompatible type for argument 1 of 'delayInit'
+   97 |   delayInit(delay_1, 100);
+      |             ^~~~~~~
+      |             |
+      |             delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:21:26: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   21 | void delayInit(delay_t * delay, tick_t duration);
+      |                ~~~~~~~~~~^~~~~
+../Core/Src/main.c:102:18: error: incompatible type for argument 1 of 'delayRead'
+  102 |    if (delayRead(delay_1)){
+      |                  ^~~~~~~
+      |                  |
+      |                  delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:22:28: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   22 | bool_t delayRead(delay_t * delay);
+      |                  ~~~~~~~~~~^~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:23:07 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:52:16: error: expected identifier or '(' before numeric constant
+   52 | #define delay1 200
+      |                ^~~
+../Core/Src/main.c:95:11: note: in expansion of macro 'delay1'
+   95 |   delay_t delay1;
+      |           ^~~~~~
+../Core/Src/main.c:52:16: warning: passing argument 1 of 'delayInit' makes pointer from integer without a cast [-Wint-conversion]
+   52 | #define delay1 200
+      |                ^~~
+      |                |
+      |                int
+../Core/Src/main.c:97:13: note: in expansion of macro 'delay1'
+   97 |   delayInit(delay1, 100);
+      |             ^~~~~~
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:21:26: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'int'
+   21 | void delayInit(delay_t * delay, tick_t duration);
+      |                ~~~~~~~~~~^~~~~
+../Core/Src/main.c:52:16: warning: passing argument 1 of 'delayRead' makes pointer from integer without a cast [-Wint-conversion]
+   52 | #define delay1 200
+      |                ^~~
+      |                |
+      |                int
+../Core/Src/main.c:102:18: note: in expansion of macro 'delay1'
+  102 |    if (delayRead(delay1)){
+      |                  ^~~~~~
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:22:28: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'int'
+   22 | bool_t delayRead(delay_t * delay);
+      |                  ~~~~~~~~~~^~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:24:02 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'secuencia_1':
+../Core/Src/main.c:58:12: error: 'delay1' undeclared (first use in this function); did you mean 'delay_t'?
+   58 |  HAL_Delay(delay1);
+      |            ^~~~~~
+      |            delay_t
+../Core/Src/main.c:58:12: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c: In function 'secuencia_2':
+../Core/Src/main.c:75:12: error: 'delay2' undeclared (first use in this function); did you mean 'delay_t'?
+   75 |  HAL_Delay(delay2);
+      |            ^~~~~~
+      |            delay_t
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:96:13: error: incompatible type for argument 1 of 'delayInit'
+   96 |   delayInit(delay1, 100);
+      |             ^~~~~~
+      |             |
+      |             delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:21:26: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   21 | void delayInit(delay_t * delay, tick_t duration);
+      |                ~~~~~~~~~~^~~~~
+../Core/Src/main.c:101:18: error: incompatible type for argument 1 of 'delayRead'
+  101 |    if (delayRead(delay1)){
+      |                  ^~~~~~
+      |                  |
+      |                  delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:22:28: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   22 | bool_t delayRead(delay_t * delay);
+      |                  ~~~~~~~~~~^~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:24:26 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:63:13: error: incompatible type for argument 1 of 'delayInit'
+   63 |   delayInit(delay1, 100);
+      |             ^~~~~~
+      |             |
+      |             delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:21:26: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   21 | void delayInit(delay_t * delay, tick_t duration);
+      |                ~~~~~~~~~~^~~~~
+../Core/Src/main.c:68:18: error: incompatible type for argument 1 of 'delayRead'
+   68 |    if (delayRead(delay1)){
+      |                  ^~~~~~
+      |                  |
+      |                  delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:22:28: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   22 | bool_t delayRead(delay_t * delay);
+      |                  ~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:190:5: error: 'cont' undeclared (first use in this function)
+  190 |  if(cont == 0){
+      |     ^~~~
+../Core/Src/main.c:190:5: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:25:27 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:63:13: error: incompatible type for argument 1 of 'delayInit'
+   63 |   delayInit(delay1, 100);
+      |             ^~~~~~
+      |             |
+      |             delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:21:26: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   21 | void delayInit(delay_t * delay, tick_t duration);
+      |                ~~~~~~~~~~^~~~~
+../Core/Src/main.c:68:18: error: incompatible type for argument 1 of 'delayRead'
+   68 |    if (delayRead(delay1)){
+      |                  ^~~~~~
+      |                  |
+      |                  delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:22:28: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   22 | bool_t delayRead(delay_t * delay);
+      |                  ~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:190:5: error: 'cont' undeclared (first use in this function)
+  190 |  if(cont == 0){
+      |     ^~~~
+../Core/Src/main.c:190:5: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:25:49 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:63:13: error: incompatible type for argument 1 of 'delayInit'
+   63 |   delayInit(delay1, 100);
+      |             ^~~~~~
+      |             |
+      |             delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:21:26: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   21 | void delayInit(delay_t * delay, tick_t duration);
+      |                ~~~~~~~~~~^~~~~
+../Core/Src/main.c:68:18: error: incompatible type for argument 1 of 'delayRead'
+   68 |    if (delayRead(delay1)){
+      |                  ^~~~~~
+      |                  |
+      |                  delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:22:28: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   22 | bool_t delayRead(delay_t * delay);
+      |                  ~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:190:5: error: 'cont' undeclared (first use in this function)
+  190 |  if(cont == 0){
+      |     ^~~~
+../Core/Src/main.c:190:5: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:28:08 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:63:13: error: invalid type argument of unary '*' (have 'delay_t' {aka 'struct <anonymous>'})
+   63 |   delayInit(*delay1, 100);
+      |             ^~~~~~~
+../Core/Src/main.c:68:18: error: invalid type argument of unary '*' (have 'delay_t' {aka 'struct <anonymous>'})
+   68 |    if (delayRead(*delay1)){
+      |                  ^~~~~~~
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:190:5: error: 'cont' undeclared (first use in this function)
+  190 |  if(cont == 0){
+      |     ^~~~
+../Core/Src/main.c:190:5: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:33:24 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:69:13: error: incompatible type for argument 1 of 'delayInit'
+   69 |   delayInit(delay1, duration_delay1);
+      |             ^~~~~~
+      |             |
+      |             delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:21:26: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   21 | void delayInit(delay_t * delay, tick_t duration);
+      |                ~~~~~~~~~~^~~~~
+../Core/Src/main.c:74:18: error: incompatible type for argument 1 of 'delayRead'
+   74 |    if (delayRead(delay1)){
+      |                  ^~~~~~
+      |                  |
+      |                  delay_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:22:
+../Core/Inc/API_delay.h:22:28: note: expected 'delay_t *' {aka 'struct <anonymous> *'} but argument is of type 'delay_t' {aka 'struct <anonymous>'}
+   22 | bool_t delayRead(delay_t * delay);
+      |                  ~~~~~~~~~~^~~~~
+At top level:
+../Core/Src/main.c:59:16: warning: 'delay3' defined but not used [-Wunused-variable]
+   59 | static delay_t delay3;
+      |                ^~~~~~
+../Core/Src/main.c:58:16: warning: 'delay2' defined but not used [-Wunused-variable]
+   58 | static delay_t delay2;
+      |                ^~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:34:51 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:59:16: warning: 'delay3' defined but not used [-Wunused-variable]
+   59 | static delay_t delay3;
+      |                ^~~~~~
+../Core/Src/main.c:58:16: warning: 'delay2' defined but not used [-Wunused-variable]
+   58 | static delay_t delay2;
+      |                ^~~~~~
+arm-none-eabi-gcc -o "practica1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LD\0_cese\pdm\practica1\STM32F401VDTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="practica1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: practica1.elf
+ 
+arm-none-eabi-size   practica1.elf 
+arm-none-eabi-objdump -h -S  practica1.elf  > "practica1.list"
+arm-none-eabi-objcopy  -O binary  practica1.elf  "practica1.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5888	     20	   1580	   7488	   1d40	practica1.elf
+Finished building: default.size.stdout
+ 
+Finished building: practica1.bin
+ 
+Finished building: practica1.list
+ 
+23:36:29 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc -o "practica1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LD\0_cese\pdm\practica1\STM32F401VDTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="practica1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: practica1.elf
+ 
+arm-none-eabi-size   practica1.elf 
+arm-none-eabi-objdump -h -S  practica1.elf  > "practica1.list"
+arm-none-eabi-objcopy  -O binary  practica1.elf  "practica1.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5888	     20	   1580	   7488	   1d40	practica1.elf
+Finished building: default.size.stdout
+ 
+Finished building: practica1.bin
+ 
+Finished building: practica1.list
+ 
+arm-none-eabi-objcopy -O ihex practica1.elf practica1.hex
+ 
+23:40:52 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc -o "practica1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LD\0_cese\pdm\practica1\STM32F401VDTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="practica1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: practica1.elf
+ 
+arm-none-eabi-size   practica1.elf 
+arm-none-eabi-objdump -h -S  practica1.elf  > "practica1.list"
+arm-none-eabi-objcopy  -O binary  practica1.elf  "practica1.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5888	     20	   1580	   7488	   1d40	practica1.elf
+Finished building: default.size.stdout
+ 
+Finished building: practica1.bin
+ 
+Finished building: practica1.list
+ 
+arm-none-eabi-objcopy -O ihex practica1.elf practica1.hex
+ 
+23:41:59 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:59:16: warning: 'delay3' defined but not used [-Wunused-variable]
+   59 | static delay_t delay3;
+      |                ^~~~~~
+../Core/Src/main.c:58:16: warning: 'delay2' defined but not used [-Wunused-variable]
+   58 | static delay_t delay2;
+      |                ^~~~~~
+arm-none-eabi-gcc -o "practica1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LD\0_cese\pdm\practica1\STM32F401VDTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="practica1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: practica1.elf
+ 
+arm-none-eabi-size   practica1.elf 
+arm-none-eabi-objdump -h -S  practica1.elf  > "practica1.list"
+arm-none-eabi-objcopy  -O binary  practica1.elf  "practica1.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5892	     20	   1580	   7492	   1d44	practica1.elf
+Finished building: default.size.stdout
+ 
+Finished building: practica1.bin
+ 
+Finished building: practica1.list
+ 
+arm-none-eabi-objcopy -O ihex practica1.elf practica1.hex
+ 
+23:42:19 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-size   practica1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5892	     20	   1580	   7492	   1d44	practica1.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy -O ihex practica1.elf practica1.hex
+ 
+23:44:43 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:59:16: warning: 'delay3' defined but not used [-Wunused-variable]
+   59 | static delay_t delay3;
+      |                ^~~~~~
+../Core/Src/main.c:58:16: warning: 'delay2' defined but not used [-Wunused-variable]
+   58 | static delay_t delay2;
+      |                ^~~~~~
+arm-none-eabi-gcc -o "practica1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LD\0_cese\pdm\practica1\STM32F401VDTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="practica1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: practica1.elf
+ 
+arm-none-eabi-size   practica1.elf 
+arm-none-eabi-objdump -h -S  practica1.elf  > "practica1.list"
+arm-none-eabi-objcopy  -O binary  practica1.elf  "practica1.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5928	     20	   1580	   7528	   1d68	practica1.elf
+Finished building: default.size.stdout
+Finished building: practica1.bin
+ 
+ 
+Finished building: practica1.list
+ 
+arm-none-eabi-objcopy -O ihex practica1.elf practica1.hex
+ 
+23:46:03 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "practica1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LD\0_cese\pdm\practica1\STM32F401VDTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="practica1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: practica1.elf
+ 
+arm-none-eabi-size   practica1.elf 
+arm-none-eabi-objdump -h -S  practica1.elf  > "practica1.list"
+arm-none-eabi-objcopy  -O binary  practica1.elf  "practica1.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5976	     20	   1604	   7600	   1db0	practica1.elf
+Finished building: default.size.stdout
+ 
+Finished building: practica1.bin
+ 
+Finished building: practica1.list
+ 
+arm-none-eabi-objcopy -O ihex practica1.elf practica1.hex
+ 
+23:47:42 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "practica1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LD\0_cese\pdm\practica1\STM32F401VDTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="practica1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: practica1.elf
+ 
+arm-none-eabi-size   practica1.elf 
+arm-none-eabi-objdump -h -S  practica1.elf  > "practica1.list"
+arm-none-eabi-objcopy  -O binary  practica1.elf  "practica1.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5996	     20	   1604	   7620	   1dc4	practica1.elf
+Finished building: default.size.stdout
+ 
+Finished building: practica1.bin
+ 
+Finished building: practica1.list
+ 
+arm-none-eabi-objcopy -O ihex practica1.elf practica1.hex
+ 
+23:48:19 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "practica1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LD\0_cese\pdm\practica1\STM32F401VDTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="practica1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: practica1.elf
+ 
+arm-none-eabi-size   practica1.elf 
+arm-none-eabi-objdump -h -S  practica1.elf  > "practica1.list"
+arm-none-eabi-objcopy  -O binary  practica1.elf  "practica1.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5992	     20	   1604	   7616	   1dc0	practica1.elf
+Finished building: default.size.stdout
+ 
+Finished building: practica1.bin
+ 
+Finished building: practica1.list
+ 
+arm-none-eabi-objcopy -O ihex practica1.elf practica1.hex
+ 
+23:53:08 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "practica1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LD\0_cese\pdm\practica1\STM32F401VDTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="practica1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: practica1.elf
+ 
+arm-none-eabi-size   practica1.elf 
+arm-none-eabi-objdump -h -S  practica1.elf  > "practica1.list"
+arm-none-eabi-objcopy  -O binary  practica1.elf  "practica1.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5936	     20	   1604	   7560	   1d88	practica1.elf
+Finished building: default.size.stdout
+ 
+Finished building: practica1.bin
+ 
+Finished building: practica1.list
+ 
+arm-none-eabi-objcopy -O ihex practica1.elf practica1.hex
+ 
+23:55:23 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/API_delay.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/API_delay.d" -MT"Core/Src/API_delay.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/API_delay.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:83:8: error: too many arguments to function 'HAL_GPIO_TogglePin'
+   83 |        HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_3, 1);
+      |        ^~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:278,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:237:6: note: declared here
+  237 | void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+      |      ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:86:8: error: too many arguments to function 'HAL_GPIO_TogglePin'
+   86 |        HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_4, 1);
+      |        ^~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:278,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:237:6: note: declared here
+  237 | void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+      |      ^~~~~~~~~~~~~~~~~~
+make[1]: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+make[1]: *** Waiting for unfinished jobs....
+make: *** [makefile:59: all] Error 2
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:55:36 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "practica1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LD\0_cese\pdm\practica1\STM32F401VDTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="practica1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: practica1.elf
+ 
+arm-none-eabi-size   practica1.elf 
+arm-none-eabi-objdump -h -S  practica1.elf  > "practica1.list"
+arm-none-eabi-objcopy  -O binary  practica1.elf  "practica1.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5984	     20	   1604	   7608	   1db8	practica1.elf
+Finished building: default.size.stdout
+ 
+Finished building: practica1.bin
+ 
+Finished building: practica1.list
+ 
+arm-none-eabi-objcopy -O ihex practica1.elf practica1.hex
+ 
+23:56:54 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "practica1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LD\0_cese\pdm\practica1\STM32F401VDTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="practica1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: practica1.elf
+ 
+arm-none-eabi-size   practica1.elf 
+arm-none-eabi-objdump -h -S  practica1.elf  > "practica1.list"
+arm-none-eabi-objcopy  -O binary  practica1.elf  "practica1.bin"
+   text	   data	    bss	    dec	    hex	filename
+   6020	     20	   1604	   7644	   1ddc	practica1.elf
+Finished building: default.size.stdout
+ 
+Finished building: practica1.bin
+ 
+Finished building: practica1.list
+ 
+arm-none-eabi-objcopy -O ihex practica1.elf practica1.hex
+ 
+23:58:51 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "practica1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LD\0_cese\pdm\practica1\STM32F401VDTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="practica1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: practica1.elf
+ 
+arm-none-eabi-size   practica1.elf 
+arm-none-eabi-objdump -h -S  practica1.elf  > "practica1.list"
+arm-none-eabi-objcopy  -O binary  practica1.elf  "practica1.bin"
+   text	   data	    bss	    dec	    hex	filename
+   6016	     20	   1604	   7640	   1dd8	practica1.elf
+Finished building: default.size.stdout
+ 
+Finished building: practica1.bin
+ 
+Finished building: practica1.list
+ 
+arm-none-eabi-objcopy -O ihex practica1.elf practica1.hex
+ 
+00:01:46 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "practica1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LD\0_cese\pdm\practica1\STM32F401VDTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="practica1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: practica1.elf
+ 
+arm-none-eabi-size   practica1.elf 
+arm-none-eabi-objdump -h -S  practica1.elf  > "practica1.list"
+arm-none-eabi-objcopy  -O binary  practica1.elf  "practica1.bin"
+   text	   data	    bss	    dec	    hex	filename
+   6092	     20	   1604	   7716	   1e24	practica1.elf
+Finished building: default.size.stdout
+ 
+Finished building: practica1.bin
+ 
+Finished building: practica1.list
+ 
+arm-none-eabi-objcopy -O ihex practica1.elf practica1.hex
+ 
+00:02:09 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "practica1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LD\0_cese\pdm\practica1\STM32F401VDTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="practica1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: practica1.elf
+ 
+arm-none-eabi-size   practica1.elf 
+arm-none-eabi-objdump -h -S  practica1.elf  > "practica1.list"
+arm-none-eabi-objcopy  -O binary  practica1.elf  "practica1.bin"
+   text	   data	    bss	    dec	    hex	filename
+   6092	     20	   1604	   7716	   1e24	practica1.elf
+Finished building: default.size.stdout
+ 
+Finished building: practica1.bin
+ 
+Finished building: practica1.list
+ 
+arm-none-eabi-objcopy -O ihex practica1.elf practica1.hex
+ 
+00:07:09 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "practica1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LD\0_cese\pdm\practica1\STM32F401VDTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="practica1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: practica1.elf
+ 
+arm-none-eabi-size   practica1.elf 
+arm-none-eabi-objdump -h -S  practica1.elf  > "practica1.list"
+arm-none-eabi-objcopy  -O binary  practica1.elf  "practica1.bin"
+   text	   data	    bss	    dec	    hex	filename
+   6096	     20	   1604	   7720	   1e28	practica1.elf
+Finished building: default.size.stdout
+ 
+Finished building: practica1.bin
+ 
+Finished building: practica1.list
+ 
+arm-none-eabi-objcopy -O ihex practica1.elf practica1.hex
+ 
+00:08:31 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "practica1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LD\0_cese\pdm\practica1\STM32F401VDTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="practica1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: practica1.elf
+ 
+arm-none-eabi-size   practica1.elf 
+arm-none-eabi-objdump -h -S  practica1.elf  > "practica1.list"
+arm-none-eabi-objcopy  -O binary  practica1.elf  "practica1.bin"
+   text	   data	    bss	    dec	    hex	filename
+   6096	     20	   1604	   7720	   1e28	practica1.elf
+Finished building: default.size.stdout
+ 
+Finished building: practica1.bin
+ 
+Finished building: practica1.list
+ 
+arm-none-eabi-objcopy -O ihex practica1.elf practica1.hex
+ 
+00:10:02 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "practica1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LD\0_cese\pdm\practica1\STM32F401VDTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="practica1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: practica1.elf
+ 
+arm-none-eabi-size   practica1.elf 
+arm-none-eabi-objdump -h -S  practica1.elf  > "practica1.list"
+arm-none-eabi-objcopy  -O binary  practica1.elf  "practica1.bin"
+   text	   data	    bss	    dec	    hex	filename
+   6056	     20	   1604	   7680	   1e00	practica1.elf
+Finished building: default.size.stdout
+ 
+Finished building: practica1.bin
+ 
+Finished building: practica1.list
+ 
+arm-none-eabi-objcopy -O ihex practica1.elf practica1.hex
+ 
+00:10:27 **** Incremental Build of configuration Debug for project practica1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "practica1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LD\0_cese\pdm\practica1\STM32F401VDTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="practica1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: practica1.elf
+ 
+arm-none-eabi-size   practica1.elf 
+arm-none-eabi-objdump -h -S  practica1.elf  > "practica1.list"
+arm-none-eabi-objcopy  -O binary  practica1.elf  "practica1.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5992	     20	   1604	   7616	   1dc0	practica1.elf
+Finished building: default.size.stdout
+ 
+Finished building: practica1.list
+Finished building: practica1.bin
+ 
+ 
+arm-none-eabi-objcopy -O ihex practica1.elf practica1.hex
+ 
