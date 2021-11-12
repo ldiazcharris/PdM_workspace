@@ -1,0 +1,90 @@
+/*
+ * API_debounce.c
+ *
+ *  Created on: Nov 11, 2021
+ *      Author: Luis David Díaz Charris
+ */
+
+#include "API_debounce.h"
+
+
+static debounce_t debounceState;
+static delay_t delay_read;
+static delay_t delay_default;
+
+#define DELAY_TIME 40
+#define DELAY_DEFAULT 100
+
+
+bool_t debounceInit()
+{
+	debounceState = BUTTON_UP;
+	delayInit(&delay_read, DELAY_TIME);
+	delayInit(&delay_default, DELAY_DEFAULT);
+	//Configuración del pin que recibe
+	/* Para hacerlo después
+	GPIO_InitStruct.Pin = PIN;
+	GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+	GPIO_InitStruct.Pull = PULL_MODE;
+	HAL_GPIO_Init(PORT, &GPIO_InitStruct);
+	*/
+	return true;
+}
+
+void debounceUpdate(GPIO_PinState pinState)
+{
+	switch(debounceState){
+	case BUTTON_UP:
+		if(pinState == 1){
+			delayRead(&delay1);
+			debounceState = BUTTON_FALLING;
+		}
+	break;
+
+	case BUTTON_FALLING:
+		if(delayRead(&delay_read)){
+			if(pinState == 1){
+				buttonPressed();
+				debounceState = BUTTON_DOWN;
+				}else{
+					debounceState = BUTTON_UP;
+			}
+		}
+	break;
+	case BUTTON_DOWN:
+		if(pinState == 0){
+					delayRead(&delay_read);
+					debounceState = BUTTON_RISING;
+				}
+	break;
+	case BUTTON_RISING:
+			if(delayRead(&delay_read)){
+				if(pinState == 0){
+					buttonReleased();
+					debounceState = BUTTON_UP;
+					}else{
+						debounceState = BUTTON_DOWN;
+				}
+			}
+	break;
+	/*default: PAra después
+		if (delayRead(&delay2)){
+			HAL_GPIO_TogglePin(PORTA, GPIO_PIN_1);
+		}
+
+	*/
+
+	} //Fin Switch
+}
+
+bool_t buttonPressed()
+{
+	return true;
+}
+
+
+bool_t buttonReleased()
+{
+	return true;
+}
+

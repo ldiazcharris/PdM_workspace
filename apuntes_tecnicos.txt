@@ -14,3 +14,11 @@ git init
 5) git push -u origin main
 
 En el paso 5 te pide usuario y contraseña. La contraseña corresponde al Token de Desarrollador
+
+Editor de commits: Vi/Vim
+
+Tuve problemas también. En Linux usé Ctrl+ X(y Ypara confirmar) y luego volví al shell listo para tirar / empujar.
+
+En Windows, GIT Bash Ctrl + Xno haría nada y descubrió que funciona bastante como vi / vim. Presione ipara ingresar al modo de inserción en línea. Escriba la descripción en la parte superior, presione escpara salir del modo de inserción, luego escriba :x!(ahora el cursor está en la parte inferior) y presione enterpara guardar y salir.
+
+Si escribe en su :q!lugar, saldrá del editor sin guardar (y se cancelará la confirmación)
