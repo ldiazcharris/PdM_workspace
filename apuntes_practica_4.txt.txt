@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=l5msGz2tZP0
+
+Manual de la HAL F439
+http://www.disca.upv.es/aperles/arm_cortex_m3/llibre/st/STM32F439xx_User_Manual/group__uart__exported__functions.html
