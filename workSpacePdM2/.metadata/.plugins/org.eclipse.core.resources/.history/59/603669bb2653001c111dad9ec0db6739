@@ -1,0 +1,31 @@
+/*
+ * API_keypad.h
+ *
+ *  Created on: 1/12/2021
+ *      Author: Luis David Díaz Charris
+ */
+
+#include "stm32f4xx_hal_def.h"
+#include <stdint.h>
+#include <stdbool.h>
+
+#ifndef API_INC_API_KEYPAD_H_
+#define API_INC_API_KEYPAD_H_
+
+typedef bool bool_t;
+typedef uint8_t tecla;
+typedef struct{
+	uint8_t colum_1;
+	uint8_t colum_2;
+	uint8_t colum_3;
+	uint8_t colum_4;
+	uint8_t fila_A;
+	uint8_t fila_B;
+	uint8_t fila_C;
+	uint8_t fila_D;
+}keypad_t;
+
+bool_t keypadInit(keypad *keypad);
+
+
+#endif /* API_INC_API_KEYPAD_H_ */

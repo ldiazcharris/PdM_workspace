@@ -1,0 +1,67 @@
+/*
+ * API_keypad.h
+ *
+ *  Created on: 1/12/2021
+ *      Author: Luis David Díaz Charris
+ */
+
+//#include "stm32f4xx_hal_def.h"
+#include "stm32f4xx_hal.h"
+//#include "stm32f401xe.h"
+#include <stdint.h>
+#include <stdbool.h>
+
+#ifndef API_INC_API_KEYPAD_H_
+#define API_INC_API_KEYPAD_H_
+
+typedef bool bool_t;
+typedef uint8_t tecla_t;
+
+/*
+typedef struct{
+	GPIO_PinState col_1_pin;
+	GPIO_PinState col_1_port;
+	GPIO_PinState col_2_pin;
+	GPIO_PinState col_2_port;
+	GPIO_PinState col_3_pin;
+	GPIO_PinState col_3_port;
+	GPIO_PinState col_4_pin;
+	GPIO_PinState col_4_port;
+
+	GPIO_PinState row_A_pin;
+	GPIO_PinState row_A_port;
+	GPIO_PinState row_B_pin;
+	GPIO_PinState row_B_port;
+	GPIO_PinState row_C_pin;
+	GPIO_PinState row_C_port;
+	GPIO_PinState row_D_pin;
+	GPIO_PinState row_D_port;
+}keypad_t;
+*/
+typedef struct{
+	uint8_t col_1_pin;
+	GPIO_TypeDef col_1_port;
+	uint8_t col_2_pin;
+	uint8_t col_2_port;
+	uint8_t col_3_pin;
+	uint8_t col_3_port;
+	uint8_t col_4_pin;
+	uint8_t col_4_port;
+
+	uint8_t row_A_pin;
+	uint8_t row_A_port;
+	uint8_t row_B_pin;
+	uint8_t row_B_port;
+	uint8_t row_C_pin;
+	uint8_t row_C_port;
+	uint8_t row_D_pin;
+	uint8_t row_D_port;
+}keypad_t;
+
+
+void keypadInit(keypad_t *keypad);
+tecla_t readKeypad(keypad_t *keypad);
+
+
+
+#endif /* API_INC_API_KEYPAD_H_ */

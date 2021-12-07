@@ -1,0 +1,70 @@
+/*
+ * API_controlUart.c
+ *
+ *  Created on: 7/12/2021
+ *      Author: VIN
+ */
+
+#include "API_controlUart.h"
+
+UART_HandleTypeDef huart6;
+DMA_HandleTypeDef hdma_usart6_rx;
+DMA_HandleTypeDef hdma_usart6_tx;
+
+static control_t stateUart(bool_t flag);
+
+bool_t uartInit()
+{
+	/**
+	* @brief Habilita el control del clok DMA por si el buffer de la UART se llena
+	* éste le permita escribir directamente en la memoria sin pasar por el procesador del micro.
+	*
+	*/
+	__HAL_RCC_DMA2_CLK_ENABLE();
+
+	HAL_NVIC_SetPriority(DMA2_Stream1_IRQn, 0, 0);
+	HAL_NVIC_EnableIRQ(DMA2_Stream1_IRQn);
+
+	HAL_NVIC_SetPriority(DMA2_Stream6_IRQn, 0, 0);
+	HAL_NVIC_EnableIRQ(DMA2_Stream6_IRQn);
+
+	/**
+	* @brief estas líneas configuran la UART a utilizar. En este caso
+	* se inicializa la USART6:
+	* PIN PC6 como TX y
+	* PIN PC7 como RX.
+	*/
+	__HAL_RCC_GPIOC_CLK_ENABLE();
+	huart6.Instance = USART6;
+	huart6.Init.BaudRate = 9600;
+	huart6.Init.WordLength = UART_WORDLENGTH_8B;
+	huart6.Init.StopBits = UART_STOPBITS_1;
+	huart6.Init.Parity = UART_PARITY_NONE;
+	huart6.Init.Mode = UART_MODE_TX_RX;
+	huart6.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+	huart6.Init.OverSampling = UART_OVERSAMPLING_16;
+	if (HAL_UART_Init(&huart6) != HAL_OK)
+	{
+		return false;
+	}
+	else
+	{
+		uartSendString("Instance: USART6\n\r");
+		uartSendString("Baud rate: 9600\n\r");
+		uartSendString("Word length: 8 bits\n\r");
+		uartSendString("Stop bits: 1 bit\n\r");
+		uartSendString("Parity: NONE\n\r");
+		uartSendString("Mode: Send/Recieve\n\r");
+		uartSendString("Flow Control: NONE\n\r");
+		uartSendString("Over sampling: 16 bits\n\r");
+		return true;
+	}
+
+}
+
+
+void uartSendString(char *mensaje)
+{
+	uint16_t longitud = strlen(mensaje);
+	HAL_UART_Transmit(&huart6, mensaje, longitud , 0xFFF);
+}

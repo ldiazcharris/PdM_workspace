@@ -1,0 +1,29 @@
+/*
+ * API_controlUart.h
+ *
+ *  Created on: 7/12/2021
+ *      Author: VIN
+ */
+
+#ifndef API_INC_API_CONTROLUART_H_
+#define API_INC_API_CONTROLUART_H_
+
+#include <stdint.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdbool.h>
+#include "stm32f4xx_hal.h"
+
+
+#ifndef API_INC_API_UART_H_
+#define API_INC_API_UART_H_
+
+typedef bool bool_t;
+
+bool_t uartInit();
+
+//uint8_t longitud(uint8_t string[]); //da problemas al modularizarse tocó usar directamente en el main
+
+void uartSendString(char *mensaje);
+
+#endif /* API_INC_API_CONTROLUART_H_ */

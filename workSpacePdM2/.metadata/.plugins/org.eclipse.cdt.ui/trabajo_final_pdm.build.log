@@ -1,0 +1,41 @@
+13:43:37 **** Incremental Build of configuration Debug for project trabajo_final_pdm ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LD/0_cese/pdm/0_trabajo_final/trabajofinal_stm/Drivers/API/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:108:26: warning: pointer targets in passing argument 1 of 'uartSendString_direct' differ in signedness [-Wpointer-sign]
+  108 |    uartSendString_direct(&keypressed1);
+      |                          ^~~~~~~~~~~~
+      |                          |
+      |                          tecla_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:3:
+D:/LD/0_cese/pdm/0_trabajo_final/trabajofinal_stm/Drivers/API/Inc/API_uart.h:24:34: note: expected 'char *' but argument is of type 'tecla_t *' {aka 'unsigned char *'}
+   24 | void uartSendString_direct(char *mensaje);
+      |                            ~~~~~~^~~~~~~
+../Core/Src/main.c:109:26: warning: pointer targets in passing argument 1 of 'uartSendString_direct' differ in signedness [-Wpointer-sign]
+  109 |    uartSendString_direct(&keypressed2);
+      |                          ^~~~~~~~~~~~
+      |                          |
+      |                          tecla_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:3:
+D:/LD/0_cese/pdm/0_trabajo_final/trabajofinal_stm/Drivers/API/Inc/API_uart.h:24:34: note: expected 'char *' but argument is of type 'tecla_t *' {aka 'unsigned char *'}
+   24 | void uartSendString_direct(char *mensaje);
+      |                            ~~~~~~^~~~~~~
+arm-none-eabi-gcc -o "trabajo_final_pdm.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LD\0_cese\pdm\0_trabajo_final\trabajofinal_stm\STM32F401VDTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="trabajo_final_pdm.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: trabajo_final_pdm.elf
+ 
+arm-none-eabi-size   trabajo_final_pdm.elf 
+arm-none-eabi-objdump -h -S  trabajo_final_pdm.elf  > "trabajo_final_pdm.list"
+arm-none-eabi-objcopy  -O binary  trabajo_final_pdm.elf  "trabajo_final_pdm.bin"
+   text	   data	    bss	    dec	    hex	filename
+  16932	     80	   1872	  18884	   49c4	trabajo_final_pdm.elf
+Finished building: default.size.stdout
+ 
+Finished building: trabajo_final_pdm.bin
+ 
+Finished building: trabajo_final_pdm.list
+ 
+arm-none-eabi-objcopy -O ihex trabajo_final_pdm.elf trabajo_final_pdm.hex
+ 
+
+13:43:39 Build Finished. 0 errors, 2 warnings. (took 2s.420ms)
+
